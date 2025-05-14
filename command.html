@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Copilot Email Enhancer</title>
+    <script>
+        function enhanceEmail() {
+            var emailContent = document.getElementById('emailContent').value;
+            var enhancedContent1 = "Versión 1 (Director Técnico):\n" + emailContent + "\n\nConfío en que cada uno aportará su experiencia para lograr un resultado sólido.\n¡Gracias por el compromiso!";
+            var enhancedContent2 = "Versión 2 (Cercano y Amigable):\n" + emailContent + "\n\n¡Gracias por el esfuerzo y la dedicación de siempre!";
+            document.getElementById('enhancedContent1').innerText = enhancedContent1;
+            document.getElementById('enhancedContent2').innerText = enhancedContent2;
+        }
+    </script>
+</head>
+<body>
+    <h1>Copilot Email Enhancer</h1>
+    <textarea id="emailContent" rows="10" cols="50" placeholder="Escribe tu correo aquí..."></textarea><br>
+    <button onclick="enhanceEmail()">Mejorar Redacción</button>
+    <h2>Contenido Mejorado:</h2>
+    <pre id="enhancedContent1"></pre>
+    <pre id="enhancedContent2"></pre>
+</body>
+</html>
