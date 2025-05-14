@@ -22,7 +22,7 @@
   </Requirements>
   <FormFactor Type="Desktop"/>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://your-app-domain/command.html"/>
+    <SourceLocation DefaultValue="https://valonsosaa.github.io/Redactaemail.html"/>
   </DefaultSettings>
   <Permissions>ReadWriteMailbox</Permissions>
   <Rule xsi:type="RuleCollection" Mode="Or">
@@ -106,7 +106,7 @@
       </bt:Images>
       <bt:Urls>
         <bt:Url id="functionFile" DefaultValue="https://your-app-domain/function-file.html"/>
-        <bt:Url id="sourceLocation" DefaultValue="https://your-app-domain/command.html"/>
+        <bt:Url id="sourceLocation" DefaultValue="https://valonsosaa.github.io/Redactaemail.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="groupLabel" DefaultValue="Copilot Enhancer"/>
