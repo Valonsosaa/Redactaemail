@@ -6,11 +6,11 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Copilot Email Enhancer"/>
   <Description DefaultValue="Enhance your email with Copilot"/>
-  <IconUrl DefaultValue="https://your-icon-url/icon.png"/>
-  <HighResolutionIconUrl DefaultValue="https://your-icon-url/icon.png"/>
-  <SupportUrl DefaultValue="https://your-support-url"/>
+  <IconUrl DefaultValue="https://valonsosaa.github.io/Redactaemail/icon.png"/>
+  <HighResolutionIconUrl DefaultValue="https://valonsosaa.github.io/Redactaemail/icon.png"/>
+ https://valonsosaa.github.io/Redactaemail/"/>
   <AppDomains>
-    <AppDomain>https://your-app-domain</AppDomain>
+    <AppDomain>https://valonsosaa.github.io</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Mailbox"/>
@@ -92,21 +92,13 @@
                     <SourceLocation resid="sourceLocation"/>
                   </Action>
                 </Control>
-              </Group>
-            </OfficeTab>
-          </ExtensionPoint>
-        </DesktopFormFactor>
-      </Host>
-    </Hosts>
-    <Resources>
+              </Resources>
       <bt:Images>
-        <bt:Image id="icon16" DefaultValue="https://your-icon-url/icon16.png"/>
-        <bt:Image id="icon32" DefaultValue="https://your-icon-url/icon32.png"/>
-        <bt:Image id="icon80" DefaultValue="https://your-icon-url/icon80.png"/>
+        <bt:Image id="icon16" DefaultValue="https://valonsosaa.github.io/Redactaemail/icon16.png"/>
+        <bt:Image id="icon32" DefaultValue="https://valonsosaa.github.io/Redactaemail/icon32.png"/>
+        <bt:Image id="icon80" DefaultValue="https://valonsosaa.github.io/Redactaemail/icon80.png"/>
       </bt:Images>
-      <bt:Urls>
-        <bt:Url id="functionFile" DefaultValue="https://your-app-domain/function-file.html"/>
-        <bt:Url id="sourceLocation" DefaultValue="https://valonsosaa.github.io/Redactaemail/command.html"/>
+      <Value="https://valonsosaa.github.io/Redactaemail/command.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="groupLabel" DefaultValue="Copilot Enhancer"/>
